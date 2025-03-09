@@ -6,9 +6,9 @@ export const metadata = {
 
 # Pagination
 
-In this guide, we will look at how to work with paginated responses when querying the Protocol API. By default, all responses limit results to ten. However, you can go as high as 100 by adding a `limit` parameter to your requests. If you are using one of the official Protocol API client libraries, you don't need to worry about pagination, as it's all being taken care of behind the scenes. {{ className: 'lead' }}
+In this guide, we gonna look at how to work wit paginated responses wen querying da Protocol API. By default, all responses limit result to ten. However, u can go as high as 100 by addin a `limit` parameter 2 ur requests. If your using one of da official Protocol API client libraries, u dont need 2 worry bout pagination, as its all being took care of behind da scenes. {{ className: 'lead' }}
 
-When an API response returns a list of objects, no matter the amount, pagination is supported. In paginated responses, objects are nested in a `data` attribute and have a `has_more` attribute that indicates whether you have reached the end of the last page. You can use the `starting_after` and `endding_before` query parameters to browse pages.
+Wen a API response return a list of object, no matter da amount, pagination is supported. In paginated response, objects is nested in a `data` attribute and have a `has_more` attribute dat indicate whether u has reached da end of da last page. U can use da `starting_after` and `endding_before` query parameter to browse page.
 
 ## Example using cursors
 
